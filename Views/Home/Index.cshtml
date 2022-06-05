@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Portfolio.Models.Project>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<section class="body text-center">
+    <section>
+        <div><img src="~/images/emeka.PNG" alt="" class="emeka"></div>
+        <div class="child1">
+            <p>Hi there, I'm Chidubem</p>
+        </div>
+        <div class="child2">
+            <p>
+                I create software products and solutions using C# and javascript
+            </p>
+        </div>
+        <div class="child3">
+            <p>
+                Nelson is a brilliant software engineer who's passionate about
+                solving real life issues and building scalable products to meet
+                and exceed users expectation.
+            </p>
+        </div>
+        <div>
+            <button class="child4"><a asp-controller="Contact" asp-action="Index" class="connect"> Let's connect</a></button>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+            <p class="project">projects</p>
+            <p class="writeup">
+                here are some of the projects i have worked on and i'm glad
+                to share them with you.
+            </p>
+        </div>
+        @if(Model.Count() > 0)
+        {
+            <section class="projects">
+                @foreach (var item in Model)
+                {
+                    <div class="project-container">
+                        <img src="~/images/@item.Image" class="project-image" alt="" srcset="">
+                        <div class="project-writeup @item.BackgroundColor">
+                            <p class="title">@item.Title</p>
+                            <p>@item.Description</p>
+                            <p>
+                                <a href="@item.Link">View app</a>
+                            </p>
+                        </div>
+                    </div>
+                }
+            </section>
+        }
+        else
+        {
+            <small class="mt-5 text-center">No projects added yet</small>
+        }
+
+        <div class="socials">
+            <a href="https://linkedin.com/in/emeka-ewelike-01a0a6186"><img src="~/images/linkedin.png" alt="" srcset=""></a>
+            <img src="~/images/instagram.png" alt="" srcset="">
+            <img src="~/images/twitter.png" alt="" srcset="">
+        </div>
+    </section>
+</section>
