@@ -27,11 +27,16 @@ a.navbar-brand {
 /* body */
 
 /* first section */
-
+.emeka-container{
+  display: flex;
+  justify-content: center;
+}
 .emeka{
-  border-radius: 60%;
-  width: 30%;
-  height: 25vh;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit:cover;
+  
 }
 
 .child1{
@@ -158,6 +163,7 @@ html {
   html {
     font-size: 16px;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -166,6 +172,13 @@ html {
   }
   .project-writeup{
     height: 25vh;
+  }
+  .emeka{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    
   }
 }
 
