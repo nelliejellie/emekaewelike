@@ -114,6 +114,10 @@ a.navbar-brand {
 .socials{
   margin-top: 10vh;
 }
+.github{
+  height: 50px;
+  width: 50px;
+}
 .socials > img{
   margin-left: 20px;
   margin-right: 20px;
