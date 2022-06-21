@@ -43,12 +43,21 @@ namespace Portfolio.Repository
             BackgroundColor = "red"
         };
 
+        public static Project five = new Project
+        {
+            Title = "NyscHub Api",
+            Description = "Nysc forum and marketplace api",
+            Link = "https://nyschub-api.herokuapp.com/swagger/index.html",
+            Image = "nyschub.png",
+            BackgroundColor = "orange"
+        };
         public List<Project> projects = new List<Project>()
         {
             one,
             two,
             three,
-            four
+            four,
+            five
         };
     }
 }
