@@ -8,7 +8,23 @@ namespace Portfolio.Repository
 {
     public class ProjectRepository
     {
+        public static Project zero = new Project
+        {
+            Title="Nysc Api documentation",
+            Description = "api documentation for nyschub",
+            Link = "https://nyschub-api.herokuapp.com/api-docs",
+            Image = "staffmanagement.png",
+            BackgroundColor = "orange"
+        };
         public static Project one = new Project
+        {
+            Title="Techstudio Academy",
+            Description = "Tachstudios academy bootcamp webapp",
+            Link = "https://techstudioacademy.com/",
+            Image = "staffmanagement.png",
+            BackgroundColor = "blue"
+        };
+        public static Project two = new Project
         {
             Title="Staff Management",
             Description = "a staff management project for managing staffs in an organisation",
@@ -16,7 +32,8 @@ namespace Portfolio.Repository
             Image = "staffmanagement.png",
             BackgroundColor = "teal"
         };
-        public static Project two = new Project
+
+        public static Project three = new Project
         {
             Title="Transferano",
             Description = "a peer to peer crypto selling application",
@@ -25,7 +42,7 @@ namespace Portfolio.Repository
             BackgroundColor = "blue"
         };
 
-        public static Project three = new Project
+        public static Project four = new Project
         {
             Title="Online Class",
             Description = "an online class for students to register and pick classes to attend",
@@ -34,7 +51,7 @@ namespace Portfolio.Repository
             BackgroundColor = "orange"
         };
 
-        public static Project four = new Project
+        public static Project five = new Project
         {
             Title = "Country Query",
             Description = "a javascript application for checking countries and information accompanying them",
@@ -43,7 +60,7 @@ namespace Portfolio.Repository
             BackgroundColor = "red"
         };
 
-        public static Project five = new Project
+        public static Project six = new Project
         {
             Title = "NyscHub Api",
             Description = "Nysc forum and marketplace api",
@@ -53,11 +70,13 @@ namespace Portfolio.Repository
         };
         public List<Project> projects = new List<Project>()
         {
+            zero,
             one,
             two,
             three,
             four,
-            five
+            five,
+            six
         };
     }
 }
