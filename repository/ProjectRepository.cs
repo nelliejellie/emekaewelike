@@ -13,7 +13,7 @@ namespace Portfolio.Repository
             Title="Nysc Api documentation",
             Description = "api documentation for nyschub",
             Link = "https://nyschub-api.herokuapp.com/api-docs",
-            Image = "staffmanagement.png",
+            Image = "api-documentation.png",
             BackgroundColor = "orange"
         };
         public static Project one = new Project
@@ -21,7 +21,7 @@ namespace Portfolio.Repository
             Title="Techstudio Academy",
             Description = "Tachstudios academy bootcamp webapp",
             Link = "https://techstudioacademy.com/",
-            Image = "staffmanagement.png",
+            Image = "techstudio.png",
             BackgroundColor = "blue"
         };
         public static Project two = new Project
