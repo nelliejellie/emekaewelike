@@ -68,8 +68,17 @@ namespace Portfolio.Repository
             Image = "nyschub.png",
             BackgroundColor = "orange"
         };
+        public static Project seven = new Project
+        {
+            Title = "Mastocred",
+            Description = "an fintech loan application for local SMEs",
+            Link = "https://www.mastocred.com/",
+            Image = "mastocred.png",
+            BackgroundColor = "orange"
+        };
         public List<Project> projects = new List<Project>()
         {
+            seven,
             zero,
             one,
             two,
