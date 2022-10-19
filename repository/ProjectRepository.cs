@@ -76,8 +76,17 @@ namespace Portfolio.Repository
             Image = "mastocred.png",
             BackgroundColor = "orange"
         };
+        public static Project eight = new Project
+        {
+            Title = "Bolt Clone",
+            Description = "a simple bolt clone with reactnative",
+            Link = "https://github.com/nelliejellie/Bolt-clone",
+            Image = "bolt-clone-image.jpeg",
+            BackgroundColor = "green"
+        };
         public List<Project> projects = new List<Project>()
         {
+            eight,
             seven,
             zero,
             one,
