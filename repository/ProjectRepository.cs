@@ -81,7 +81,7 @@ namespace Portfolio.Repository
             Title = "Bolt Clone",
             Description = "a simple bolt clone with reactnative",
             Link = "https://github.com/nelliejellie/Bolt-clone",
-            Image = "bolt-clone-image.jpeg",
+            Image = "bolt.png",
             BackgroundColor = "green"
         };
         public List<Project> projects = new List<Project>()
