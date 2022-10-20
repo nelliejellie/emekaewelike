@@ -82,11 +82,10 @@ namespace Portfolio.Repository
             Description = "a simple bolt clone with reactnative",
             Link = "https://github.com/nelliejellie/Bolt-clone",
             Image = "bolt.png",
-            BackgroundColor = "green"
+            BackgroundColor = "orange"
         };
         public List<Project> projects = new List<Project>()
         {
-            eight,
             seven,
             zero,
             one,
@@ -94,7 +93,8 @@ namespace Portfolio.Repository
             three,
             four,
             five,
-            six
+            six,
+            eight,
         };
     }
 }
