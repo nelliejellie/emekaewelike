@@ -79,9 +79,9 @@ namespace Portfolio.Repository
         public static Project eight = new Project
         {
             Title = "Bolt Clone",
-            Description = "a simple bolt clone with reactnative",
+            Description = "the popular bolt ride clone with reactnative",
             Link = "https://github.com/nelliejellie/Bolt-clone",
-            Image = "bolt-clone-image.png",
+            Image = "bolt-clone-image.jpeg",
             BackgroundColor = "orange"
         };
         public List<Project> projects = new List<Project>()
